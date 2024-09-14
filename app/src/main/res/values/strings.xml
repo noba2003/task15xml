@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">task15xml</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fire_ice_top_starts_sits_and_sleepers">Fire Ice: Top starts, sits and sleepers</string>
+    <string name="comment">اكتب تعليق</string>
+    <string name="send">send</string>
+    <string name="this_is_photo">this is photo</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="playstation_plus_game_catalog">PlayStation Plus Game Catalog</string>
+    <string name="russia_expels_six_uk_diplomats">Russia expels six UK diplomats</string>
+    <string name="your_comment_has_been_sent">Your comment hasn\'t sent </string>
+    <string name="back">back</string>
+</resources>

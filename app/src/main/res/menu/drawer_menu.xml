@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="sport" android:id="@+id/sports" android:icon="@drawable/baseline_sports_baseball_24" />
+    <item android:title="technology" android:id="@+id/technology" android:icon="@drawable/baseline_laptop_windows_24" />
+    <item android:title="world" android:id="@+id/world" android:icon="@drawable/baseline_newspaper_24" />
+
+</menu>

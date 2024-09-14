@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ui.WorldFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="557dp"
+        tools:ignore="VisualLintBounds">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="27dp"
+                android:contentDescription="@string/this_is_photo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/world"
+
+                tools:ignore="VisualLintBounds"
+                tools:src="@drawable/scaled" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="13dp"
+                android:text="@string/russia_expels_six_uk_diplomats"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_below="@id/imageView"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/comment"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:layout_below="@id/title"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/send"
+                android:layout_below="@id/editTextText"
+               />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
